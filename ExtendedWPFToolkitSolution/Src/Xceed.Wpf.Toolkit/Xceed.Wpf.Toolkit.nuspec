@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Df.WpfToolkit</id>
+        <version>99.0.0</version>
+        <title>Extended WPF Toolkit</title>
+        <authors>Danske Fragtmænd A/S</authors>
+        <owners>Danske Fragtmænd A/S</owners>
+        <projectUrl>https://github.com/DanskeFragtmaend/wpftoolkit</projectUrl>
+        <iconUrl>https://i.imgur.com/7RrAWV8.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Build for Danske Fragtmænd A/S</description>
+        <summary>Build for Danske Fragtmænd A/S</summary>
+        <copyright>Copyright © Xceed Software Inc. 2010-2018</copyright>
+        <tags>Extended WPF Toolkit</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+            <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+            <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.0" />
+        </frameworkAssemblies>
+    </metadata>
+</package>

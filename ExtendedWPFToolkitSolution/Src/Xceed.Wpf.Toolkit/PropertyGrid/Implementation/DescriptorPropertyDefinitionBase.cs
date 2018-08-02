@@ -353,8 +353,9 @@ namespace Xceed.Wpf.Toolkit.PropertyGrid
       var pd = (PropertyDescriptor)item;
 
       var attribute = PropertyGridUtilities.GetAttribute<ExpandableObjectAttribute>( pd );
-      return (attribute != null);
-    }
+        var propType = (Type)item.GetType().GetProperty("PropertyType")?.GetValue(item, null);
+        return attribute != null || (propType?.Namespace?.StartsWith("Df.") == true && propType.IsClass);
+        }
 
     internal int ComputeDisplayOrderInternal( bool isPropertyGridCategorized )
     {
